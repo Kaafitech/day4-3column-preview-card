@@ -31,6 +31,7 @@ body {
 main {
   display: grid;
   min-height: 100vh;
+  margin-top: 40px;
   align-items: center;
   justify-content: center;
 }
@@ -99,10 +100,10 @@ section button:hover {
   color: var(--hbb);
 }
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .card {
     max-width: 327px;
-    height: auto;
+    height: 100%;
     display: grid;
     grid-template-columns: 1fr;
   }
